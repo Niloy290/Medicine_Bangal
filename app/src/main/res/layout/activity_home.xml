@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#88EAE1"
+    tools:context=".Home">
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#0EA596">
+                <Toolbar
+                    android:id="@+id/bac_bar"
+                    android:layout_width="30dp"
+                    android:navigationIcon="@drawable/ic_baseline_arrow_back_ios_24"
+                    android:layout_height="wrap_content"
+                    tools:ignore="MissingConstraints">
+
+                </Toolbar>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="ট্যাবলেট এবং ক্যপসুল"
+                    android:textColor="#4A2978"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:columnCount="2"
+                android:rowCount="6">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/sec20"
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="20dp"
+                    app:cardBackgroundColor="#FFF"
+                    app:cardCornerRadius="40dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="65dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/seclo" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="সেকলো-২০"
+                            android:textColor="#063950"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/fexo"
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="20dp"
+                    app:cardBackgroundColor="#FDFCFC"
+                    app:cardCornerRadius="40dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="65dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/fexo120" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="ফেক্সো-১২০"
+                            android:textColor="#063950"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/napax"
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="20dp"
+                    app:cardBackgroundColor="#FFF"
+                    app:cardCornerRadius="40dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="57dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/napaext" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="নাপা এক্সটেন্ড"
+                            android:textColor="#063950"
+                            android:textSize="22sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cefn"
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="20dp"
+                    app:cardBackgroundColor="#FFF"
+                    app:cardCornerRadius="40dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="65dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/cef" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="সেফ - ৩"
+                            android:textColor="#063950"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/finix"
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="20dp"
+                    app:cardBackgroundColor="#FFF"
+                    app:cardCornerRadius="40dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="65dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/finix" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="ফিনিক্স ২০"
+                            android:textColor="#063950"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/lcal"
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="20dp"
+                    app:cardBackgroundColor="#FAF8F8"
+                    app:cardCornerRadius="40dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="65dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/labcald" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="ল্যাবক্যাল-ডি"
+                            android:textColor="#063950"
+                            android:textSize="22sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="20dp"
+                    app:cardBackgroundColor="#FDFCFC"
+                    app:cardCornerRadius="40dp">
+
+                    <LinearLayout
+                        android:id="@+id/disop"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="65dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/disopan" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="ডিসোপ্যান০.৫"
+                            android:textColor="#063950"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/etox"
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="20dp"
+                    app:cardBackgroundColor="#FFF"
+                    app:cardCornerRadius="40dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="65dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/eto" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="ইটোরিক্স৯০"
+                            android:textColor="#063950"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/entcd"
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="20dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="40dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="65dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/entacyd" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="ইন্টাসিড প্লাস"
+                            android:textColor="#063950"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/amox"
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="20dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="40dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="65dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/amodis" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="এ্যামোডিস-৪০০"
+                            android:textColor="#063950"
+                            android:textSize="22sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/desl"
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="20dp"
+                    app:cardBackgroundColor="#FFF"
+                    app:cardCornerRadius="40dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="65dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/deslona" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="ডেসলোনা"
+                            android:textColor="#063950"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/tufn"
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="20dp"
+                    app:cardBackgroundColor="#FFF"
+                    app:cardCornerRadius="40dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="65dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/tufnil" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="টাফনিল"
+                            android:textColor="#063950"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </GridLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="536dp"
+            android:layout_height="425dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/medicine" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="প্রয়োজনীয় ঔষধ"
+            android:textColor="#467E85"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="#358C95"
+            android:text="ট্যাবলেট এবং ক্যপসুল"
+            android:textColor="#F1EBB4"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnSrp"
+            android:layout_width="match_parent"
+            android:textColor="#F1EBB4"
+            android:backgroundTint="#358C95"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="সিরাপ"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
